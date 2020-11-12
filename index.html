@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <h1>
-        Hello, world!
-    </h1>
+    <head>
+        <script src="tabs.js" defer></script>
+        <link href= "styles.css" rel="stylesheet">
+    </head>
     <body>
         <ul>
-            <li>Home</li>
-            <li>Museums and Galleries</li>
-            <li>Local Artists</li>
-            <li>Street Art</li>
-            <li>Map</li>
-            <li>About</li>
+            <li data-tab-target="#home">Home</li>
+            <li data-tab-target="#museums and galleries">Museums and Galleries</li>
+            <li data-tab-target="#local artists">Local Artists</li>
+            <li data-tab-target="#street art"> Street Art</li>
+            <li data-tab-target="#map">Map</li>
+            <li data-tab-target="#about">About</li>
         </ul>
         <div class="tabcontent">
-            <div id= "home">
+            <div id= "home" data-tab-target>
                 <h1>Home</h1>
                 <p>This is the homepage.</p>
             </div>
-            <div id= "museums and galleries">
+            <div id= "museums and galleries" data-tab-target>
                 <h1>Museums and Galleries</h1>
                 <p>This is the page about local museums and galleries.</p>
             </div>
-            <div id= "local artists">
+            <div id= "local artists" data-tab-target>
                 <h1>Local Artists</h1>
                 <p>This is the page about local artists.</p>
             </div>
-            <div id= "street art">
+            <div id= "street art" data-tab-target>
                 <h1>Street Art</h1>
                 <p>This is the page about street art.</p>
             </div>
-            <div id= "map">
+            <div id= "map" data-tab-target>
                 <h1>Map</h1>
                 <p>Here is a map of the locations of Athens art.</p>
             </div>
-            <div id= "about">
+            <div id= "about" data-tab-target>
                 <h1>About</h1>
                 <p>This is the about page.</p>
             </div>
