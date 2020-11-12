@@ -3,9 +3,9 @@ const tabContents = document.querySelectorAll('[data-tab-content')
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.tabTarget)
+        target.classList.add('active')
         tabContents.forEach(tabContents => {
             tabContents.classList.remove('active')
         })
-        target.classList.add('active')
     })
 })
