@@ -4,6 +4,7 @@ tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.tabTarget)
         tabContents.forEach(tabContent => {
+            tabContent.classList.remove('active tab')
             tabContent.classList.remove('active')
         })
         tabs.forEach(tab => {
