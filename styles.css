@@ -10,12 +10,14 @@ body{
     padding:0;
     margin:50;
     background-color: #E5989B;
+    color: #6D6875;
 }
 
 p{
     padding:0;
     margin:50;
     background-color: #B5838D;
+    color: #6D6875;
 }
 
 .tabs{
