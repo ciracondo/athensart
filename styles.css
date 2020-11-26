@@ -9,7 +9,12 @@
 body{
     padding:0;
     margin:25;
-    background-color: green;
+}
+
+p{
+    padding:0;
+    margin: 25;
+    color: blue;
 }
 
 .tabs{
