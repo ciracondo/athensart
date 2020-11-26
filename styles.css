@@ -11,12 +11,14 @@ body{
     margin:50;
     background-color:#BBD1EA;
     color: #333333;
+    font-family: "Palatino Linotype", Palatino, serif;
 }
 
 p{
     padding:0;
     margin:50;
     color: #333333;
+    font-family: "Palatino Linotype", Palatino, serif;
 }
 
 .tabs{
@@ -26,6 +28,7 @@ p{
     margin:0;
     padding:0;
     border-bottom: 1px solid black;
+
 }
 
 .tab {
