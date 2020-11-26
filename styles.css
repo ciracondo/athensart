@@ -9,12 +9,13 @@
 body{
     padding:0;
     margin:50;
+    background-color: #E5989B;
 }
 
 p{
     padding:0;
     margin:50;
-    color: blue;
+    background-color: #B5838D;
 }
 
 .tabs{
