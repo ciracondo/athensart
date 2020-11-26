@@ -34,8 +34,8 @@ p{
 }
 
 .tab.active{
-    background-color: #CCC;
+    background-color: #507DBC;
 }
 .tab:hover {
-    background-color: #AAA;
+    background-color: #507DBC;
 }
