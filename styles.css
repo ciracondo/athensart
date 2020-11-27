@@ -8,7 +8,7 @@
 
 body{
     padding:0;
-    margin:50;
+    margin:100;
     background-color:#BBD1EA;
     color: #333333;
     font-family: "Verdana", Geneva, sans-serif;
@@ -16,7 +16,7 @@ body{
 
 p{
     padding:0;
-    margin:50;
+    margin:100;
     color: #333333;
     font-family: "Verdana", Geneva, sans-serif;
 }
