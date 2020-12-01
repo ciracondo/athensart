@@ -6,6 +6,13 @@
     display: block;
 }
 
+iframe{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 body{
     padding:0;
     margin:500;
